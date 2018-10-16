@@ -17,6 +17,7 @@ public class HelloSpringController {
     @RequestMapping("/user/login")
     public String login(Model model){
         model.addAttribute("user","david.zhang");
+        test();
         return "/user/login" ;
     }
 
