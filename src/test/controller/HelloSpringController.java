@@ -19,4 +19,8 @@ public class HelloSpringController {
         model.addAttribute("user","david.zhang");
         return "/user/login" ;
     }
+
+    private void test(){
+
+    }
 }
