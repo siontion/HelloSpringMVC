@@ -22,6 +22,6 @@ public class HelloSpringController {
     }
 
     private void test(){
-
+//
     }
 }
